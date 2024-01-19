@@ -7,7 +7,9 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(14, 98%, 50%);
+  
+  --first-color: hsl(273, 89%, 39%);
+  /* --first-color: hsl(14, 98%, 50%); */
   --black-color: hsl(0, 0%, 0%);
   --black-color-light: hsl(0, 0%, 40%);
   --white-color: hsl(0, 0%, 95%);
@@ -203,7 +205,7 @@ body.dark-theme {
   content: "";
   width: 40px;
   height: 28px;
-  background-color: hsla(14, 98%, 50%, .2);
+  background-color: hsla(276, 98%, 50%, 0.2);
   position: absolute;
   top: -4px;
   right: -8px;
@@ -460,7 +462,7 @@ body.dark-theme {
 }
 
 .home__social {
-  background-color: rgb(115, 23, 202);
+
   height: max-content;
   position: absolute;
   left: -3rem;
@@ -482,7 +484,7 @@ body.dark-theme {
 }
 
 .home__social-link:hover {
-  background-color: var(--black-color);
+  background-color: var(--first-color);
 }
 
 
@@ -497,7 +499,8 @@ body.dark-theme {
 }
 
 .home__description b {
-  background: linear-gradient(90deg, hsla(14, 98%, 50%, .3), hsla(14, 98%, 50%, 0));
+
+  background: linear-gradient(90deg, hsla(276, 98%, 50%, 0.2), hsla(276, 98%, 50%, 0.068));
 }
 
 .home__scroll {
@@ -609,6 +612,7 @@ body.dark-theme {
   position: relative;
   border: 4px solid var(--white-color);
   z-index: 1;
+  
 }
 
 .about__shadow,
@@ -1651,12 +1655,6 @@ body.dark-theme {
 
   .scrollup {
     right: 3rem;
-  }
-}
-
-@media screen and (min-width: 576px) {
-  body {
-    background-color: blueviolet;
   }
 }
 
