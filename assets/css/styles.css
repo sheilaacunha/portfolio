@@ -264,18 +264,22 @@ body.dark-theme {
   color: var(--title-color);
 }
 
-.nav__logo-circle,
-.nav__toggle {
-  width: 32px;
-  height: 32px;
+.nav__logo-circle {
+
+  border-radius: 50%;
+}
+
+.nav__toggle,
+.nav__logo-circle {
   background-color: var(--black-color);
   color: var(--white-color);
   display: grid;
   place-items: center;
 }
 
-.nav__logo-circle {
-  border-radius: 50%;
+.nav__toggle {
+  width: 32px;
+  height: 32px;
 }
 
 .nav__toggle {
@@ -1135,20 +1139,28 @@ body.dark-theme {
   .contact__data .section__title-2 {
     transform: translateX(0);
   }
+
+ .nav__logo-circle {
+   width: 32px;
+   height: 32px;
+ }
+
 }
+
 @media screen and (min-width: 360px) {
-    .about__image {
-        width: 260px;
-      }
-    
-      .about__shadow {
-        height: 360px;
-        right: -2.5rem;
-      }
+  .about__image {
+    width: 260px;
+  }
 
+  .about__shadow {
+    height: 360px;
+    right: -2.5rem;
+  }
+        .nav__logo-circle {
+          width: 40px;
+          height: 40px;
+        }
 }
-
-
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
@@ -1195,7 +1207,7 @@ body.dark-theme {
   .dark-theme .contact__social-arrow {
     filter: none;
   }
-   
+
 }
 
 
@@ -1207,8 +1219,13 @@ body.dark-theme {
   .projects__container {
     grid-template-columns: repeat(2, 350px);
   }
-  
+     .nav__logo-circle {
+     width: 48px;
+     height: 48px;
+   }
+
 }
+
 
 /* For large devices */
 @media screen and (min-width: 1150px) {
@@ -1280,6 +1297,10 @@ body.dark-theme {
   .nav__link-button:hover {
     color: var(--white-color);
   }
+    .nav__logo-circle {
+      width: 64px;
+      height: 64px;
+    }
 
   .nav__link-button::after {
     background-color: transparent;
