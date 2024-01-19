@@ -471,7 +471,8 @@ body.dark-theme {
 }
 
 .home__social-link {
-  background-color: var(--black-color-light);
+  /* background-color: var(--black-color-light); */
+  background-color: brown;
   color: var(--white-color);
   font-size: 1.25rem;
   padding: 6px;
