@@ -1658,12 +1658,5 @@ body.dark-theme {
   }
 }
 
-@media screen and (max-width: 576px) {
-  body {
-    background-color: aqua;
-  }
-  .home__social{
-    display: none;
-  }
-}
+
 
