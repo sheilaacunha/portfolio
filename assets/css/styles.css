@@ -461,19 +461,18 @@ body.dark-theme {
 
 .home__social {
   background-color: rgb(115, 23, 202);
-  height: min-content;
+  height: max-content;
   position: absolute;
   left: -3rem;
   top: 0;
   bottom: 0;
-  margin: auto 0;
+  margin: 0 0;
   display: grid;
   row-gap: 1rem;
 }
 
 .home__social-link {
   background-color: var(--black-color-light);
-
   color: var(--white-color);
   font-size: 1.25rem;
   padding: 6px;
@@ -1655,18 +1654,6 @@ body.dark-theme {
   }
 }
 
-@media screen and (max-width: 340px) {
-  body {
-    background-color: blue;
-  }
-}
-
-@media screen and (min-width: 360px) {
-  body {
-    background-color: brown;
-  }
-}
-
 @media screen and (min-width: 576px) {
   body {
     background-color: blueviolet;
@@ -1677,10 +1664,8 @@ body.dark-theme {
   body {
     background-color: aqua;
   }
-}
-
-@media screen and (min-width: 768px) {
-  body {
-    background-color: cadetblue;
+  .home__social{
+    display: none;
   }
 }
+
