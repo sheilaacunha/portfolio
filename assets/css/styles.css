@@ -460,7 +460,8 @@ body.dark-theme {
 }
 
 .home__social {
-  height: max-content;
+  background-color: rgb(115, 23, 202);
+  height: min-content;
   position: absolute;
   left: -3rem;
   top: 0;
@@ -471,8 +472,8 @@ body.dark-theme {
 }
 
 .home__social-link {
-  /* background-color: var(--black-color-light); */
-  background-color: rgb(115, 23, 202);
+  background-color: var(--black-color-light);
+
   color: var(--white-color);
   font-size: 1.25rem;
   padding: 6px;
@@ -1165,7 +1166,7 @@ body.dark-theme {
 }
 
 @media screen and (max-width: 576px) {
-.nav__logo-circle {
+  .nav__logo-circle {
     width: 40px;
     height: 40px;
   }
@@ -1216,7 +1217,7 @@ body.dark-theme {
   .dark-theme .contact__social-arrow {
     filter: none;
   }
-    
+
 
 }
 
@@ -1655,20 +1656,23 @@ body.dark-theme {
 }
 
 @media screen and (max-width: 340px) {
-  body{
+  body {
     background-color: blue;
   }
 }
+
 @media screen and (min-width: 360px) {
   body {
     background-color: brown;
   }
 }
+
 @media screen and (min-width: 576px) {
   body {
     background-color: blueviolet;
   }
 }
+
 @media screen and (max-width: 576px) {
   body {
     background-color: aqua;
