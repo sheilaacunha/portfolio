@@ -472,7 +472,7 @@ body.dark-theme {
 
 .home__social-link {
   /* background-color: var(--black-color-light); */
-  background-color: brown;
+  background-color: blueviolet;
   color: var(--white-color);
   font-size: 1.25rem;
   padding: 6px;
@@ -1163,6 +1163,7 @@ body.dark-theme {
     height: 40px;
   }
 }
+
 @media screen and (max-width: 576px) {
   .home__social{
     row-gap: 0;
